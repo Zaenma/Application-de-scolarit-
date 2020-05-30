@@ -1,0 +1,276 @@
+.card-classe {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+  transition: transform 0.3s;
+  box-shadow: 1px 6px 10px 1px rgb(66, 58, 58);
+}
+
+
+.a-classe:hover {
+  text-decoration: none;
+}
+
+.session-en-cours {
+  background-color: #2D6CDF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.count-title {
+  margin: 20px;
+}
+
+.card {
+  box-shadow: 0 1px 1px rgb(66, 58, 58);
+  border-top: 2px rgb(2, 158, 248);
+}
+
+.nom-etablissement {
+  font-size: 50px;
+  color: #00aeffdc;
+}
+
+.infos-paramettres {
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+.form-control {
+  /* font-weight: bold; */
+  font-size: 15px;
+  border-color: #434d5727;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color: orchid;
+}
+
+.nombre {
+  font-size: 50px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/*
+  --------------------------------------------------------------------------------------------------
+*/
+
+/* .contacte-card,
+.accademy-card,
+.parents-card {
+  display: none;
+} */
+
+/*
+  affichage des information -----------------------------------------------------------
+*/
+.special {
+  color: #110505;
+  font-size: 20px;
+}
+
+.ligne {
+  margin-top: 15px;
+}
+
+.special a:hover {
+  text-decoration: none;
+}
+
+.image-ens {
+  transition: transform 0.3s;
+}
+
+.image-ens:hover {
+  transform: scale(1.1);
+}
+
+.piece {
+  color: #F4F7FA;
+  background-color: rgb(12, 125, 238);
+  border-radius: 2px;
+  box-shadow: 0 5px 5px rgb(88, 86, 86);
+  padding: 5px;
+}
+
+.piece:hover {
+  color: #F4F7FA;
+  background-color: rgba(12, 125, 238, 0.938);
+  text-decoration: none;
+}
+
+.image-eleve {
+  height: 300px;
+}
+
+/*
+  Pour le calendrier -------------------------------------------------------------------
+*/
+.calendrier-barre {
+  background-color: rgb(228, 86, 20);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.calendrier-table {
+  width: 100%;
+  height: calc(100vh - 128px);
+}
+
+.calendrier-table td {
+  padding: 10px;
+  border: 1px solid rgba(8, 0, 0, 0.774);
+  vertical-align: top;
+  width: 14.29px;
+  height: 20px;
+
+}
+
+.calendrier-jour {
+
+  font-size: 15px;
+}
+
+.calendrier-table td.aujourdhui {
+  background-color: #00000041;
+}
+
+.calendrier_autre_jour .calendrier-jour {
+  opacity: 0.3;
+}
+
+.bnt-ajout-evenement {
+
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(3, 75, 230, 0.856);
+  border-radius: 50%;
+  border-radius: 0 6px 0 #0000001a, 0 1px 18px #0000001a, 0 3px 5px -1px #0003;
+  transition: transform 0.3s;
+  left: 30px;
+}
+
+.bnt-ajout-evenement:hover {
+  text-decoration: none;
+  transform: scale(1.3);
+}
+
+.bnt-ajout-evenement a {
+  color: #F4F7FA;
+  text-decoration: none;
+}
+
+/*
+  Emploi du temps ---------------------------------------------------------------------
+*/
+.table-emploi {
+  width: 100%;
+}
+
+.table-emploi td {
+  padding-bottom: 30px;
+  border: 1px solid rgba(8, 0, 0, 0.774);
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+.table-emploi th {
+  padding-bottom: 20px;
+}
+
+
+
+/*
+  Barre de séparation -----------------------------------------------------------------------------
+*/
+.barslant {
+  padding: 0px;
+  overflow: visible;
+  position: relative;
+  background: #333;
+  height: 0;
+  line-height: 16px;
+  margin-top: 0px;
+  width: 90%;
+}
+
+.barslant div {
+  background-color: #F4F7FA;
+  margin-left: 100px;
+  padding: 0 8px 8px 8px;
+  display: inline;
+  position: absolute;
+  color: #000;
+  top: -12px;
+}
+
+.slantdiv {
+  width: 96%;
+  height: 0px;
+  border-bottom: 2px solid #333;
+  border-right: 8px solid white;
+  margin-top: 60px;
+}
+
+/*
+  fin de la barre de séparation
+*/
+.nombre-eleves {
+  background-color: rgb(158, 69, 241);
+}
+
+.nombre-enseignant {
+  background-color: #09C6AB;
+}
+
+.nombre-classes {
+  background-color: #2D6CDF;
+  box-shadow: unset;
+}
+
+.nombre-evenement {
+  background-color: #4c4a8a;
+  box-shadow: inherit;
+}
+
+
+.nombre-evenement:hover {
+  background-color: #4541a0;
+}
+
+.nombre-matiere {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.nombre-message {
+  background-color: #1a193d;
+}
+
+.dashboard-counts {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
+/*
+  Système d'onglets -------------------------------------------------------------------------------
+*/
+
+.contenu-onglet {
+  display: none;
+}
+
+.contenu-onglet.onglet-active {
+  display: block;
+}

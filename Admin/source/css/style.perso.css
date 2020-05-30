@@ -1,0 +1,32 @@
+.card-classe {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+.a-classe:hover {
+  text-decoration: none;
+}
+
+.session-en-cours {
+  background-color: rgb(228, 73, 73);
+}
+
+.nombre-eleves {
+  background-color: rgb(158, 69, 241);
+}
+
+.nombre-enseignant {
+  background-color: rgba(165, 119, 3, 0.863);
+}
+
+.classes {
+  background-color: rgba(88, 140, 235, 0.829);
+}
+
+.dashboard-counts {
+  color: aliceblue;
+  font-weight: bold;
+}

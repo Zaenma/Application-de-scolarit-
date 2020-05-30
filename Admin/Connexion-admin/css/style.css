@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	padding: 0 10%;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+h3.w3_inner_tittle.two {
+	color: #000;
+	font-weight: 600;
+}
+
+.signin-form {
+	background: #fafdfd;
+	padding: 3em 2em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.signin-form h3 {
+	font-size: 2em;
+	color: #212121;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.signin-form h3 span {
+	color: #67e1ff;
+}
+
+.signin-form img {
+	border-radius: 50%;
+}
+
+.login-form {
+	margin: 1em 0 2.5em;
+}
+
+.bg-dark {
+	background-color: #fff;
+	border-radius: 0%;
+	box-shadow: 0px 2px 1px rgba(51, 51, 53, 0.42);
+}
+
+.signin-form input[type="email"],
+.signin-form input[type="text"],
+.signin-form input[type="password"] {
+	width: 100%;
+	padding: 0.8em 0.8em;
+	font-size: 1em;
+	margin: 1em 0;
+	outline: none;
+	color: rgb(71, 59, 59);
+	border: 1px solid #b9c0c3;
+	letter-spacing: 1px;
+	border-radius: 10px;
+}
+
+.signin-form input:focus {
+	border-bottom: 2px solid #e28811;
+}
+
+.signin-form input[type="email"] {
+	background: none;
+	display: block;
+}
+
+.signin-form input[type="text"] {
+	background: none;
+	display: block;
+}
+
+.signin-form input[type="password"] {
+	background: none;
+	display: block;
+}
+
+::-webkit-input-placeholder {
+	color: #212121 !important;
+}
+
+.signin-form input[type="submit"] {
+	outline: none;
+	padding: 0.8em 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 1em;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	background: #e53238;
+	box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
+	font-weight: 600;
+
+}
+
+.signin-form input[type="submit"]:hover {
+
+	background: #007ee5;
+	transition: .5s all;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+}
+
+.signin-form.profile.admin {
+	background: #f9fbfd;
+	/* padding: 2em 2em; */
+	box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+	-webkit-box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+	-moz-box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+	-o-box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+	border: 1px solid #ddd;
+}
